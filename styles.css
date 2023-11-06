@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 22px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.profile p, .proj, .skills ul, .edu, .achv {
+    line-height: 1.5;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+/* Profile */
+.profile p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+/* Projects */
+.proj_title {
+    margin-top: 10px;
+}
+
+.proj_duration {
+    opacity: 0.7;
+}
+
+.proj_description {
+    margin-left: 16px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+/* Skills */
+.skills ul {
+    padding: 0;
+    margin: 10px 0 0 10px;
+}
+
+.skills li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.skills li:before {
+    content: "»";
+    position: absolute;
+    left: 0;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+/* Education */
+.edu {
+    margin-top: 10px;
+}
+
+.edu .college_name {
+    opacity: .7;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+/* Achievements */
+.achv {
+    margin-top: 10px;
+}
+
+.achv p:nth-child(2) span {
+    font-style: italic;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+/* Contact */
+.contact-container {
+    background-color: #222;
+    color: #fff;
+}
+
+.contact h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.contact ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-item {
+    margin: 0 16px;
+}
+
+.contact-item:nth-child(1) p, .contact-link {
+    font-size: 16px;
+}
+
+.contact-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+/* Footer */
+footer {
+    background-color: #e7e7e7;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+}
