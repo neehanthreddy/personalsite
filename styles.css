@@ -22,7 +22,7 @@ header {
     max-width: 800px;
     margin: 20px auto;
     background-color: #fff;
-    padding: 22px;
+    padding: 24px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -73,6 +73,7 @@ ul {
 
 .proj_description {
     margin-left: 16px;
+    text-align: justify;
 }
 
 /* ----------------------------------------------------------------------------------------------------------- */
@@ -159,4 +160,61 @@ footer {
     color: #000;
     text-align: center;
     padding: 10px;
+}
+
+/* Responsive styles for screen sizes less than 768px */
+@media (max-width: 768px) {
+    .container {
+        width: 94%;
+        padding: 28px;
+    }
+}
+
+/* Responsive styles for screen sizes less than 560px */
+@media (max-width: 560px) {
+    .container {
+        width: 90%;
+    }
+
+    .proj_description {
+        margin-left: 0;
+    }
+
+    .contact ul {
+        flex-direction: column;
+    }
+
+    .contact-item {
+        margin: 8px 0;
+    }
+}
+
+/* Responsive styles for screen sizes less than 375px */
+@media (max-width: 376px) {
+    h1 {
+        font-size: 32px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+}
+
+/* Responsive styles for screen sizes less than 320px */
+@media (max-width: 320px) {
+    h1 {
+        font-size: 29px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+    
+    p {
+        font-size: 12px;
+    }
 }
